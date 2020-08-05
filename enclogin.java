@@ -80,12 +80,12 @@ public class enclogin extends JFrame implements ActionListener {
      try {
 		if(rs.next())
 		 {
-			//System.out.println("Login successful"); 
+			
 			JOptionPane.showMessageDialog(f,"Login Successful");
 		 }
 		 else
 		 {
-			 //System.out.println("Login not successful");
+			 
 			 JOptionPane.showMessageDialog(f,"Login Unsuccessful");
 		 }
 	} catch (SQLException e1) {
