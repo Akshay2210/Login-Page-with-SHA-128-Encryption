@@ -45,7 +45,7 @@ public class enclogin extends JFrame implements ActionListener {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-	 jdbcurl="jdbc:mysql://localhost:3306/emp2";
+	 jdbcurl="jdbc:mysql://localhost:3306/your_database_name";
 	 try {
 		con =DriverManager.getConnection(jdbcurl,"your_username","your_password");
 	} catch (SQLException e1) {
